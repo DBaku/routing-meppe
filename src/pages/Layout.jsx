@@ -16,7 +16,9 @@ const Layout = () => {
                     </li>
                 </ul>
             </nav>
-
+            {/* -- PLATZHALTER -- 
+        Outlet wird dynamisch durch die Komponente ersetzt, 
+        die zu dem aktuellen pfad passt. */}
             <Outlet />
         </>
     );
